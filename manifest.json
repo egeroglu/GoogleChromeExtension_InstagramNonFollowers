@@ -1,0 +1,18 @@
+{
+    "name": "follower tracking",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "icons": {"128":"icon128x128.png"},
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon": "icon19x19.png"
+    },
+    "permissions":[
+        "tabs",
+        "https://www.instagram.com/*"
+    ]
+
+}
